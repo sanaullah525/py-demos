@@ -39,8 +39,10 @@ height = 5.4
 is_student = True
 skills = ["Python", "Data Analysis", "SQL"]
 
+#...This prints the type of the data.
 print(type(name))
 print(type(age))
 print(type(height))
 print(type(is_student))
 print(type(skills))
+
