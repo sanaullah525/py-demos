@@ -46,3 +46,5 @@ print(type(height))
 print(type(is_student))
 print(type(skills))
 
+#...String concatenation and Replication.
+'Hiwad' + 'Khan'
