@@ -53,6 +53,7 @@ print()
 #...String concatenation and Replication.
 print('Zerak ' + 'Khan')
 print('Zerak' + "24", "\n")
+
 '''This will result in a error.
 Because we can't combine 
 string values to an integer directly.'''
@@ -70,3 +71,22 @@ print(spam+eggs+spam)
 
 spam= spam +2
 print(spam)
+
+var= 233
+print(var +2, "\n")
+print("\n")
+
+
+'''
+The first program
+'''
+#...This program says and asks for my name.
+print("Hello world!")
+print("What's your name ?") # Ask for their name.
+myName= input()
+print("It's good to meet you, " + myName)
+print("The length of your name is: ")
+print(len(myName),"\n")
+print("What's your age ?") # Ask for their age.
+myAge= float(input())
+print(f"You will be {myAge + 1} in a year.\n")
