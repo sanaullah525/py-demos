@@ -80,7 +80,7 @@ print("\n")
 '''
 The first program
 '''
-#...This program says and asks for my name.
+''' #...This program says and asks for my name.
 print("Hello world!")
 print("What's your name ?") # Ask for their name.
 myName= input()
@@ -91,8 +91,14 @@ print("What's your age ?") # Ask for their age.
 myAge= float(input())
 print(f"You will be {myAge + 1} in a year.\n")
 
-print()
+print() 
+'''
 print()
 
 name = "Sanaullah"
 print(f"My name is {name}")
+print()
+
+pi= round(3.14159)
+print(pi)
+print(type(pi)) 
