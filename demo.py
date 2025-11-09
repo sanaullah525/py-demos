@@ -120,3 +120,7 @@ print('spam' + 'spamspam')
 print('spam' * 3)
 print()
 
+total_burritos= 99
+print('I have eaten ' + str(total_burritos) + ' burritos.')
+print()
+
