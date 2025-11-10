@@ -124,3 +124,13 @@ total_burritos= 99
 print('I have eaten ' + str(total_burritos) + ' burritos.')
 print()
 
+#...Boolean values, comparison operators, and Boolean operators.
+spam= True
+print(spam)
+
+print(34 == 23)
+print(2 != 3)
+print(2!= 2)
+
+eggcount= 42
+print(eggcount= 42)
