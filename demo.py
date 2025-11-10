@@ -131,6 +131,6 @@ print(spam)
 print(34 == 23)
 print(2 != 3)
 print(2!= 2)
-
+print()
 eggcount= 42
-print(eggcount= 42)
+print(eggcount <= 42)
