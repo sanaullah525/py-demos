@@ -171,6 +171,7 @@ print(not False)
 print() 
                 """
 
+'''
 #...Mixing Boolean and Comparison Operators
 print((4 < 5) and (5 < 6))
 print((4 < 5) or (9 < 6))
@@ -181,3 +182,17 @@ print('dog' != 'cat')
 print('dog' == 'cat')
 print()
 
+
+print("What is your name ?")
+name= input()
+if name == 'Alice':
+  print(f"It's good to meet you, {name}.")'''
+print()
+
+
+print('What is your name?')
+nam= input()
+if nam == 'Alice':
+  print(f'Nice to meet you, {nam}')
+else:
+  print('Hello, stranger.')
