@@ -3,6 +3,7 @@
  Simple Python scripts to demonstrate print statements
   and basic arithmetic operations.
 """
+
 """
 print("Welcome to the python world !!!", 
       "This is my first demo script.",
@@ -141,18 +142,29 @@ myage= 26
 print(myage >= 10)
 print()
 
-#...Boolean operators
+###...Boolean operators...###
+#..AND operator
 print(True and True)
 print(True and False)
 print(False and True)
 print(False and False)
 print()
 
+#..OR operator
 print(True or True)
 print(True or False)
 print(False or True)
 print(False or False)
 print()
+
+#..Mixing Operators
+print(not True)
+print((not False) and True)
+print((not False) or False)
+print((not True) or False)
+print(True or False)
+print(False and True)
+print(True and False)
 
 print(not True)
 print(not False)
@@ -163,4 +175,9 @@ print()
 print((4 < 5) and (5 < 6))
 print((4 < 5) or (9 < 6))
 print((1 == 2) or (2 == 1))
+print()
+
+print('dog' != 'cat')
+print('dog' == 'cat')
+print()
 
