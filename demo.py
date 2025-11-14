@@ -201,8 +201,8 @@ if nam == 'Alice':
   print(f'Nice to meet you, {nam}')
 else:
   print('Hello, stranger.')
-'''
 print()
+'''
 
 
 print('What is your name ?')
