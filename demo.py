@@ -81,7 +81,9 @@ print("\n")
 '''
 The first program
 '''
-''' #...This program says and asks for my name.
+
+'''
+ #...This program says and asks for my name.
 print("Hello world!")
 print("What's your name ?") # Ask for their name.
 myName= input()
@@ -94,6 +96,7 @@ print(f"You will be {myAge + 1} in a year.\n")
 
 print() 
 '''
+
 print()
 
 name = "Sanaullah"
@@ -186,13 +189,30 @@ print()
 print("What is your name ?")
 name= input()
 if name == 'Alice':
-  print(f"It's good to meet you, {name}.")'''
+  print(f"It's good to meet you, {name}.")
+'''
 print()
 
 
+'''
 print('What is your name?')
 nam= input()
 if nam == 'Alice':
   print(f'Nice to meet you, {nam}')
 else:
   print('Hello, stranger.')
+'''
+print()
+
+
+print('What is your name ?')
+nom= input()
+print(f'What is your age ?')
+sokalan= float(input())
+
+if nom== 'Sanaullah Khan' and sokalan== 26:
+  print(f'Welcome, Sir',nom)
+elif sokalan < 26:
+  print('You are not him. kiddo')
+elif sokalan == 26:
+  print('Welcome, Sir')
