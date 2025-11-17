@@ -230,7 +230,7 @@ else:
     print('Wrong password !')
 '''
 
-'''
+
 #...elif examples.
 print('What is your name ?')
 name= input()
@@ -241,7 +241,10 @@ if name == 'Alice' and age == 12:
     print('Hi Alice')
 elif age < 12:
     print('Have you done your homework ?',"Get off the PC 😖. Right now!!!")
+elif age > 49:
+    print("You're nor Alice granny.")
+elif 12 < age < 49:
+    print('You are definitly not Alice. Kindly turn the PC off!')
 elif age > 2000:
     print('Unlike you, Alice is not an undead, immortal vampire.')
-'''
-
+    
