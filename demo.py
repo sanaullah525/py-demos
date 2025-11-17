@@ -203,8 +203,7 @@ else:
   print('Hello, stranger.')
 print()
 '''
-
-
+'''
 print('What is your name ?')
 nom= input()
 print(f'What is your age ?')
@@ -216,3 +215,15 @@ elif sokalan < 26:
   print('You are not him. kiddo')
 elif sokalan == 26:
   print('Welcome, Sir')
+  '''
+
+pswd = str("swordfish")
+print('Type password')
+pswd= input()
+print()
+
+if pswd == 'swordfish':
+    print('Access granted.')
+else:
+    print('Wrong password !')
+
