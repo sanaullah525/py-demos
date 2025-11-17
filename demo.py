@@ -203,6 +203,7 @@ else:
   print('Hello, stranger.')
 print()
 '''
+
 '''
 print('What is your name ?')
 nom= input()
@@ -215,9 +216,10 @@ elif sokalan < 26:
   print('You are not him. kiddo')
 elif sokalan == 26:
   print('Welcome, Sir')
-  '''
-
-pswd = str("swordfish")
+'''
+  
+'''
+pswd = "swordfish"
 print('Type password')
 pswd= input()
 print()
@@ -226,4 +228,20 @@ if pswd == 'swordfish':
     print('Access granted.')
 else:
     print('Wrong password !')
+'''
+
+'''
+#...elif examples.
+print('What is your name ?')
+name= input()
+print()
+print('How old are you ?')
+age= int(input())
+if name == 'Alice' and age == 12:
+    print('Hi Alice')
+elif age < 12:
+    print('Have you done your homework ?',"Get off the PC 😖. Right now!!!")
+elif age > 2000:
+    print('Unlike you, Alice is not an undead, immortal vampire.')
+'''
 
