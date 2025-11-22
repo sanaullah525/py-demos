@@ -305,6 +305,7 @@ print(bool(0))
 print(bool('Hello'))
 '''
 
+'''
 ###...While loop
 spam= 0
 while spam < 5: #As long as spam<5 the while loop will keep looping.
@@ -316,4 +317,10 @@ spam= 0
 if spam < 5:
     print('Hello World five times using if statemet.')
     spam= spam + 1
+'''
 
+name= ''
+while name != 'your name':
+    print("Please type your name.")
+    name= input()
+print("Thank you!")
