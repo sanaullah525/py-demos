@@ -280,6 +280,7 @@ else:
       print('Unlike you, Alice is not an undead, immortal vampire.')
 '''
 
+'''
 ###...Use of Truthy and Falsy values.
 
 print("Enter a name.")
@@ -288,4 +289,17 @@ if name!= '':
     print("\nThanks for entering a name.")
 else:
     print("You didn't enter a name.")
+'''
+
+#...Bool function 
+# Bool function in python is like a strict judge.
+# If you have something (meaningful) entered --> Bool returns True otherwise False.
+print(bool(True))
+print(bool(False))
+print(bool()) #..Bool function returns false, because nothing was entered.
+print(bool("")) # Bool function returns because of empty string.
+print(bool(''))
+print(bool(0.0))
+print(bool(0))
+print(bool('Hello'))
 
