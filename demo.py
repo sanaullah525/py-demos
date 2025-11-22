@@ -318,9 +318,18 @@ if spam < 5:
     print('Hello World five times using if statemet.')
     spam= spam + 1
 '''
-
+"""
 name= ''
 while name != 'your name':
     print("Please type your name.")
     name= input()
 print("Thank you!")
+"""
+
+name= ""
+while True:
+    print("Please type your name.")
+    name= input()
+    if name== "your name":
+        print("Thanks!")
+        break
