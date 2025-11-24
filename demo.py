@@ -345,6 +345,28 @@ while spam < 5:
     print('spam is' + str(spam))
 '''
 
+#...for loop
+"""
 print("My name is ")
 for i in range (0,5):
     print("Sunny 5 times. " + str(i))
+"""
+
+"""name= ''
+while not name:
+    print('Enter your name: ')
+    name= input()
+print('How many guests will you have ?')
+numofGuests= int(input())
+if numofGuests:
+    print('Be sure to have enough room for all your guests.')
+    print('Done')"""
+
+
+"""print("What is your name five times?: ")
+name= str(input())
+for nm in range(0,6):
+    print(nm, name)
+"""
+
+
