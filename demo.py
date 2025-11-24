@@ -369,4 +369,9 @@ for nm in range(0,6):
     print(nm, name)
 """
 
+#...Sum of all the numbers from 0 to 100.
+total= 0
+for i in range(0,101):
+    total= total+i
+print(total, "\nhahaha... I am clever like Guass.")
 
