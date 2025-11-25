@@ -369,9 +369,23 @@ for nm in range(0,6):
     print(nm, name)
 """
 
+
+"""
 #...Sum of all the numbers from 0 to 100.
 total= 0
 for i in range(0,101):
     total= total+i
 print(total, "\nhahaha... I am clever like Guass.")
+"""
 
+
+Sum= 0
+for i in range(0,101):
+    Sum= Sum + i
+print(Sum)
+
+numbers= (1, 2, 2, 3)
+print(numbers[1:3]) # Output: (2, 2)
+
+text = "Python"
+print(text[1:4])  # 'yth' → starts at index 1 ('y'), stops before index 4 ('h' included, 'o' excluded)
