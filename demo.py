@@ -378,7 +378,7 @@ for i in range(0,101):
 print(total, "\nhahaha... I am clever like Guass.")
 """
 
-
+"""
 Sum= 0
 for i in range(0,101):
     Sum= Sum + i
@@ -389,3 +389,9 @@ print(numbers[1:3]) # Output: (2, 2)
 
 text = "Python"
 print(text[1:4])  # 'yth' → starts at index 1 ('y'), stops before index 4 ('h' included, 'o' excluded)
+"""
+
+nums= 0
+for i in range(0,20):
+    i= i+1
+    print(i)
