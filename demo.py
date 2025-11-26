@@ -416,3 +416,8 @@ for i in range(1,11):
         print(num, "X", i, "= ", num*i)
 """
 
+#...This program prints all the even numbers between 1 and 100.
+for i in range(1,101):
+    if i%2 == 0:
+        print(i)
+
