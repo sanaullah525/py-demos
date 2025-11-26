@@ -391,7 +391,28 @@ text = "Python"
 print(text[1:4])  # 'yth' → starts at index 1 ('y'), stops before index 4 ('h' included, 'o' excluded)
 """
 
+"""
 nums= 0
 for i in range(0,20):
     i= i+1
     print(i)
+"""
+
+print()
+
+"""
+sum= 0
+for i in range(0,51):
+    sum= sum+i
+    print(sum)
+"""
+
+
+"""
+print("Enter a number from 1 to 10: ")
+num= int(input())
+print("\n")
+for i in range(1,11):
+        print(num, "X", i, "= ", num*i)
+"""
+
