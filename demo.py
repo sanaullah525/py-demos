@@ -452,3 +452,9 @@ print(f"The reverse string is: ",rstr)
 """
 
 
+#...This program returns factorial of a number.
+r= 1
+num= int(input("Enter a number: "))
+for i in range(1, num+1):
+    r *= i
+print(f"The factorial of",num,"is:",r,".")
