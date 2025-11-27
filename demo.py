@@ -442,3 +442,13 @@ for ch in txt:
 print(f"The text contains",vcount,"vowels.")
 """
 
+"""
+#...This program prints the reverse of any string entered by the user.
+rstr= ""
+ostr= input("Type a string: \n")
+for char in ostr:
+    rstr= char + rstr
+print(f"The reverse string is: ",rstr)
+"""
+
+
