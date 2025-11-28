@@ -461,6 +461,8 @@ print(f"The factorial of",num,"is:",r,".")
 """
 
 """
+#...This program prints a message with each item in the list.
+
 items = ["apple", "banana", "mango", "orange"]
 for i in items:
     print(f"I like",i)
