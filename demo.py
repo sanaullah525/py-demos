@@ -336,7 +336,7 @@ while True:
         break
 '''
 
-
+'''
 #...continue statements
 spam= 0
 while spam < 5:
@@ -344,7 +344,7 @@ while spam < 5:
     if spam == 3:
         continue
     print('spam is ' + str(spam))
-
+'''
 
 """
 #...for loop
@@ -470,3 +470,14 @@ for i in items:
     print(f"I like",i)
 """
 
+'''
+#...The range function.
+i= 0
+for i in range(0,100,2):
+    print(i)
+'''
+
+import random
+
+for i in range(12):
+    print(random.randint(1,10))
