@@ -335,18 +335,20 @@ while True:
         print("Thanks!")
         break
 '''
-'''
+
+
 #...continue statements
 spam= 0
 while spam < 5:
     spam= spam + 1
     if spam == 3:
         continue
-    print('spam is' + str(spam))
-'''
+    print('spam is ' + str(spam))
 
-#...for loop
+
 """
+#...for loop
+
 print("My name is ")
 for i in range (0,5):
     print("Sunny 5 times. " + str(i))
