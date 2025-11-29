@@ -477,7 +477,37 @@ for i in range(0,100,2):
     print(i)
 '''
 
+'''
+#...Importing modules.
 import random
 
 for i in range(12):
     print(random.randint(1,10))
+'''
+
+"""
+#...Importing functions from modules.
+
+from random import *
+import os
+import sys
+from math import sqrt
+import random
+import datetime
+import json
+import re
+import subprocess
+from pathlib import Path
+from collections import Counter
+from typing import List
+"""
+
+
+#...FUNCTIONS
+def hello():
+    print('Howdy!')
+    print('Howdy!!!')
+    print('HELLO there.')
+
+hello()
+
