@@ -504,10 +504,17 @@ from typing import List
 
 
 #...FUNCTIONS
+'''
 def hello():
     print('Howdy!')
     print('Howdy!!!')
     print('HELLO there.')
 
 hello()
+'''
 
+#...FUNCTIONS with parameters.
+def hello(name):
+    print(f"Hello", name)
+
+hello('Alice')
