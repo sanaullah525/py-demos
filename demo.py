@@ -470,6 +470,13 @@ for i in items:
     print(f"I like",i)
 """
 
+"""
+x= 0
+for i in range(3):
+    x += i
+print(i,x)
+"""
+
 '''
 #...The range function.
 i= 0
@@ -512,9 +519,11 @@ def hello():
 
 hello()
 '''
-
+"""
 #...FUNCTIONS with parameters.
 def hello(name):
     print(f"Hello", name)
 
 hello('Alice')
+"""
+
