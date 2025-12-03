@@ -609,3 +609,6 @@ print("\nin english.")
 # … and more!
 import random
 print(random.uniform(1,10))
+
+basket= ["red"]*4 + ["blue"]*2
+print(random.sample(basket, 4))
