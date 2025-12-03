@@ -527,3 +527,9 @@ def hello(name):
 hello('Alice')
 """
 
+
+print("What is your name?")
+name= input()
+def hello(name):
+    print("Hello",name)
+hello(name)
