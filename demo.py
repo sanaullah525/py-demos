@@ -611,4 +611,6 @@ import random
 print(random.uniform(1,10))
 
 basket= ["red"]*4 + ["blue"]*2
-print(random.sample(basket, 4))
+print(random.sample(basket, 4),"\n")
+
+print(random.randint(1,6))
