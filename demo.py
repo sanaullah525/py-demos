@@ -573,3 +573,10 @@ print(random.randint(1,10))
 # because the order of arguments passed to a function matter.
 """
 
+sn= 0
+while sn < 100:
+    sn += 1
+    print("Welcome here!",sn)
+    if sn == 50:
+        break
+
