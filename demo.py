@@ -115,16 +115,17 @@ print(type(pi))
 """
 
 
+
 #...Boolean Logic in python.
-'''print(45 == 45.0)
-print(34 == '34')'''
+"""
+print(45 == 45.0)
+print(34 == '34')
 
 print("True and false statements in python."
       "== checks whether values are same.")
 a= [1,2,3,4]
 b= [1,2,3,4]
 print(a==b,"\n")
-
 
 print(90 == 0090.00,"\n")
 
@@ -141,7 +142,7 @@ print('I have eaten ' + str(total_burritos) +
        ' burritos.')
 print()
 
-"""
+
 #...Boolean values, comparison operators, and Boolean operators.
 spam= True
 print(spam)
@@ -151,8 +152,9 @@ print(2!= 2)
 print()
 """
 
-"""
+
 #...Comparison operators
+"""
 eggcount= 42
 print(eggcount <= 42)
 myage= 26
@@ -161,8 +163,9 @@ print()
 """
 
 
-"""
+
 ###...Boolean operators...###
+"""
 #..AND operator
 print(True and True) #..AND operator evaluates to TRUE only when both of its operands are True.
 print(True and False)
@@ -194,8 +197,8 @@ print()
 """
 
 
-'''
 #...Mixing Boolean and Comparison Operators
+'''
 print((4 < 5) and (5 < 6))
 print((4 < 5) or (9 < 6))
 print((1 == 2) or (2 == 1))
@@ -210,8 +213,8 @@ print("What is your name ?")
 name= input()
 if name == 'Alice':
   print(f"It's good to meet you, {name}.")
-'''
 print()
+'''
 
 
 '''
@@ -418,9 +421,9 @@ nums= 0
 for i in range(0,20):
     i= i+1
     print(i)
+print()
 """
 
-print()
 
 """
 sum= 0
@@ -531,32 +534,42 @@ from typing import List
 
 
 #...FUNCTIONS
-'''
+"""
 def hello():
     print('Howdy!')
     print('Howdy!!!')
     print('HELLO there.')
 
 hello()
-'''
 """
+
 #...FUNCTIONS with parameters.
+"""
 def hello(name):
     print(f"Hello", name)
-
 hello('Alice')
-"""
 
-"""
+def hello(name):
+    name= str(name)
+    print("Welcome to python. Mr.",name)
+hello('Asif')
+hello('Azaz')
+hello('Sanaullah')
+
 print("What is your name?")
 name= str(input())
 def hello(name):
     print("Hello",name)
 hello(name)
-"""
 
-"""
 spam= print("Hello!\n")
 print(None== spam)
+
+
+import random
+print(random.randint(1,10))
+#print(random.randint(10,1))
+#This (line 564) will cause an error,
+# because the order of arguments passed to a function matter.
 """
 
