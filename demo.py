@@ -573,9 +573,19 @@ print(random.randint(1,10))
 # because the order of arguments passed to a function matter.
 """
 
+#...break statement in For loop.
+"""
 wc= 0
 while wc < 100:
     wc += 1
     print("Welcome here!",wc)
     if wc == 50:
         break
+"""
+
+
+#...Arguments [To the print function].
+print("Hello",end= "")
+print("World!!!\n")
+
+print("How","Are","You?",end="",sep='-')
