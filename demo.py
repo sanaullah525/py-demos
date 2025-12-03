@@ -23,7 +23,9 @@ print("Modulus: 29%5= ", 29%5)
 print("Exponentiation: 3**2= ", 3**2)
 print("That's all for now. More to come soon...\n")
 print()
+"""
 
+"""
 #...Some BODMAS rules.
 print("Let's try some BODMAS rules now...")
 print()
@@ -31,26 +33,30 @@ ba= (8*(25/5)-2)
 print(ba, "\n")
 ab= (30/5)*(22-6)/4
 print(ab)
+"""
 
-
+"""
 #...Now time for Data types
 name = "Sanaullah"
 age = 25
 height = 5.4
 is_student = True
 skills = ["Python", "Data Analysis", "SQL"]
+"""
 
+"""
 #...This prints the type of the data.
 print(type(name))
 print(type(age))
 print(type(height))
 print(type(is_student))
 print(type(skills))
+"""
 
 print()
 #...This print() is used for a line break.
 
-
+"""
 #...String concatenation and Replication.
 print('Zerak ' + 'Khan')
 print('Zerak' + "24", "\n")
@@ -62,7 +68,9 @@ string values to an integer directly.'''
 print('Zerak Khan  '*5)
 '''This returns Zerak Khan 5 times.'''
 print()
+"""
 
+"""
 #...Storing Values in Variables.
 spam= 40
 print(spam)
@@ -76,7 +84,7 @@ print(spam)
 var= 233
 print(var +2, "\n")
 print("\n")
-
+"""
 
 '''
 The first program
@@ -93,12 +101,10 @@ print(len(myName),"\n")
 print("What's your age ?") # Ask for their age.
 myAge= float(input())
 print(f"You will be {myAge + 1} in a year.\n")
-
-print() 
-'''
-
 print()
-
+'''
+print()
+"""
 name = "Sanaullah"
 print(f"My name is {name}")
 print()
@@ -106,15 +112,21 @@ print()
 pi= round(3.14159)
 print(pi)
 print(type(pi))
+"""
 
 
 #...Boolean Logic in python.
-print(45 == 45.0)
+'''print(45 == 45.0)
+print(34 == '34')'''
 
-print(34 == '34')
+print("True and false statements in python."
+      "== checks whether values are same.")
+a= [1,2,3,4]
+b= [1,2,3,4]
+print(a==b,"\n")
 
-print(90 == 0090.00)
-print()
+
+print(90 == 0090.00,"\n")
 
 bacon= 20
 print(bacon + 1)
@@ -129,22 +141,27 @@ print('I have eaten ' + str(total_burritos) +
        ' burritos.')
 print()
 
+"""
 #...Boolean values, comparison operators, and Boolean operators.
 spam= True
 print(spam)
-
 print(34 == 23)
 print(2 != 3)
 print(2!= 2)
 print()
+"""
 
+"""
 #...Comparison operators
 eggcount= 42
 print(eggcount <= 42)
 myage= 26
 print(myage >= 10)
 print()
+"""
 
+
+"""
 ###...Boolean operators...###
 #..AND operator
 print(True and True) #..AND operator evaluates to TRUE only when both of its operands are True.
@@ -159,7 +176,9 @@ print(True or False)
 print(False or True)
 print(False or False)  #..OR operator returns false value only when both are false.
 print()
+"""
 
+"""
 #..Mixing Operators
 print(not True)
 print((not False) and True)
@@ -172,7 +191,8 @@ print(True and False)
 print(not True)
 print(not False)
 print() 
-                """
+"""
+
 
 '''
 #...Mixing Boolean and Comparison Operators
