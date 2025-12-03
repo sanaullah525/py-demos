@@ -588,4 +588,13 @@ while wc < 100:
 print("Hello",end= "")
 print("World!!!\n")
 
-print("How","Are","You?",end="",sep='-')
+
+print("Sanga","yee","?\n",end="",sep=' ') #Custom arguments to the print ftn.
+print("That means")
+import time
+words= ["'","How ","are ", "you ", "?","'"]
+for word in words:
+    print(word, sep= " ", end= "",flush= True)
+    time.sleep(0.5)
+print("\nin english.")
+
