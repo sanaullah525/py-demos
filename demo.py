@@ -585,7 +585,7 @@ while wc < 100:
 
 
 #...Arguments [To the print function].
-print("Hello",end= "")
+"""print("Hello",end= "")
 print("World!!!\n")
 
 
@@ -597,4 +597,6 @@ for word in words:
     print(word, sep= " ", end= "",flush= True)
     time.sleep(0.5)
 print("\nin english.")
+"""
+
 
