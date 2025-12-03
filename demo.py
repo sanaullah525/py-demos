@@ -527,9 +527,16 @@ def hello(name):
 hello('Alice')
 """
 
-
+"""
 print("What is your name?")
-name= input()
+name= str(input())
 def hello(name):
     print("Hello",name)
 hello(name)
+"""
+
+"""
+spam= print("Hello!\n")
+print(None== spam)
+"""
+
