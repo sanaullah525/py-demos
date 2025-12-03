@@ -600,3 +600,12 @@ print("\nin english.")
 """
 
 
+#...'random' Module.
+#..The random module contains functions that help you generate:
+# ✔ random numbers
+# ✔ random choices from a list
+# ✔ shuffled items
+# ✔ random Boolean values
+# … and more!
+import random
+print(random.uniform(1,10))
