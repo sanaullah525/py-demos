@@ -641,6 +641,7 @@ def getanswer(answernumber):
 r= random.randint(1,9)
 fortune= getanswer(r) #The variable fortune is useful because 
 # Functions return values; variables remember them (for later re-using).
-print(fortune)
+print(fortune, "\n")
 
-
+# Shorter version of the above last lines.
+print(getanswer(random.randint(1,9)))
