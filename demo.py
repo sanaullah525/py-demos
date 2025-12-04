@@ -599,7 +599,7 @@ for word in words:
 print("\nin english.")
 """
 
-
+"""
 #...'random' Module.
 #..The random module contains functions that help you generate:
 # ✔ random numbers
@@ -615,3 +615,30 @@ print(random.sample(basket, 4),"\n")
 
 print(random.randint(1,6),"\n")
 print(random.uniform(1,100),"\n")
+"""
+
+
+import random
+def getanswer(answernumber):
+    if answernumber== 1:
+        return 'Go bac'
+    elif answernumber== 2:
+        return 'Yes.'
+    elif answernumber== 3:
+        return 'Why are you running?'
+    elif answernumber== 4:
+        return 'You are at the right place.'
+    elif answernumber== 5:
+        return 'You should see this.'
+    elif answernumber== 6:
+        return 'Ask again later.'
+    elif answernumber== 7:
+        return 'Concentrate and ask again.'
+    elif answernumber== 8:
+        return 'Cooporate or get fired.'
+    elif answernumber== 9:
+        return 'Very doubtful'
+r= random.randint(1,9)
+fortune= getanswer(r)
+print(fortune)
+
