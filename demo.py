@@ -621,7 +621,7 @@ print(random.uniform(1,100),"\n")
 import random
 def getanswer(answernumber):
     if answernumber== 1:
-        return 'Go bac'
+        return 'Go back'
     elif answernumber== 2:
         return 'Yes.'
     elif answernumber== 3:
@@ -639,6 +639,8 @@ def getanswer(answernumber):
     elif answernumber== 9:
         return 'Very doubtful'
 r= random.randint(1,9)
-fortune= getanswer(r)
+fortune= getanswer(r) #The variable fortune is useful because 
+# Functions return values; variables remember them (for later re-using).
 print(fortune)
+
 
