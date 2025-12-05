@@ -649,7 +649,7 @@ print(getanswer(random.randint(1,9)))
 
 
 #...The call stack (Function stacking) in python.
-
+"""
 def a():
     print('a() starts')
     b() #This calls b() function while a() still running.
@@ -668,4 +668,15 @@ def d(): #d() also doesn't call any functions, it just prints statements.
 
 a()  # a() is called. Inside a(), the functions b() and d() are called in order.
      # b() then calls c(), so c() also runs.
+"""
+
+#...Local and Global scope in python.
+def cotton():
+        eggs= 330 #Variable in Local scope.
+        print(eggs,"\n")
+
+cotton()
+print(eggs) #Local scope variable is called thus it will give NameError.
+
+eggs
 
