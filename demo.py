@@ -617,7 +617,7 @@ print(random.randint(1,6),"\n")
 print(random.uniform(1,100),"\n")
 """
 
-
+"""
 import random
 def getanswer(answernumber):
     if answernumber== 1:
@@ -645,3 +645,24 @@ print(fortune, "\n")
 
 # Shorter version of the above last lines.
 print(getanswer(random.randint(1,9)))
+"""
+
+
+#...The call stack (Function stacking) in python.
+
+def a():
+    print('a() returns')
+    b()
+    d()
+    print('a() returns') 
+def b():
+    print('b() starts')
+    c()
+    print('b() returns')
+def c():
+    print('c() starts')
+    print('c() returns')
+def d():
+    print('d() starts')
+    print('d() returns')
+a()
