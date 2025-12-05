@@ -651,18 +651,21 @@ print(getanswer(random.randint(1,9)))
 #...The call stack (Function stacking) in python.
 
 def a():
+    print('a() starts')
+    b() #This calls b() function while a() still running.
+    d() #This calls d() function while a() still running.
     print('a() returns')
-    b()
-    d()
-    print('a() returns') 
 def b():
     print('b() starts')
-    c()
+    c() #This calls c() function while b() still running.
     print('b() returns')
-def c():
+def c(): #c() does'nt call any functions, It just print statements.
     print('c() starts')
     print('c() returns')
-def d():
+def d(): #d() also doesn't call any functions, it just prints statements.
     print('d() starts')
     print('d() returns')
-a()
+
+a()  # a() is called. Inside a(), the functions b() and d() are called in order.
+     # b() then calls c(), so c() also runs.
+
