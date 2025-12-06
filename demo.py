@@ -671,12 +671,22 @@ a()  # a() is called. Inside a(), the functions b() and d() are called in order.
 """
 
 #...Local and Global scope in python.
+"""
 def cotton():
         eggs= 330 #Variable in Local scope.
         print(eggs,"\n")
 
 cotton()
 print(eggs) #Local scope variable is called thus it will give NameError.
+"""
 
-eggs
+# Code in local scope can access any variable.
+# SHADOWING: We can use same names for global variables and local variables.
+#.. In general we should avoide SHADOWING.
+"""
+eggs= 99
 
+def cotton():
+    print(eggs)
+cotton()
+"""
