@@ -709,3 +709,27 @@ jam()
 print("Outside:", eggs)
 """
 
+"""
+bacon local
+spam local
+bacon local
+global
+"""
+
+#...Local and Global Variables with the Same Name
+"""
+def bacon():
+    lc= "bacon local"
+    print(lc)
+bacon() #prints 'bacon local'
+
+def spam():
+    lc= "spam local"
+    print(lc)
+spam() # prints 'spam local'
+
+lc= "global"
+bacon()
+print(lc)
+"""
+
