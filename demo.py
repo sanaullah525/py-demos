@@ -684,9 +684,17 @@ print(eggs) #Local scope variable is called thus it will give NameError.
 # SHADOWING: We can use same names for global variables and local variables.
 #.. In general we should avoide SHADOWING.
 """
-eggs= 99
+eggs= 99 # eggs defined in global scope.
 
 def cotton():
-    print(eggs)
+    print(eggs) # egg called in local scope.
 cotton()
+
+def spam():
+    print(eggs)
+
+eggs= 42 # eggs defined in global scope.
+spam()
+print(eggs) # egg called in local scope.
 """
+
