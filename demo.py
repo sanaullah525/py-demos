@@ -698,3 +698,14 @@ spam()
 print(eggs) # egg called in local scope.
 """
 
+"""
+eggs= 42
+
+def jam():
+    eggs = 10   # local shadowing [Same variable is called inside the ftn as global var.]
+    print("Inside jam:", eggs)
+
+jam()
+print("Outside:", eggs)
+"""
+
