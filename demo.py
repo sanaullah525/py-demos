@@ -746,7 +746,7 @@ ftn()
 
 
 #...Exception handeling.
-
+"""
 def div(divideby):
     try:
         return 42/divideby
@@ -757,4 +757,22 @@ print(div(2))
 print(div(12))
 print(div(0)) #..Division by zero. (ZeroDivisionError)
 print(div(1))
+"""
 
+"""
+The reason print(div(1)) is never executed is because 
+once the execution jumps to the code in the except clause,
+it does not return to the try clause.
+Instead, it just continues moving down as normal.
+"""
+def div(divideby):
+    return 42/divideby
+try:
+    print(div(2))
+    print(div(12))
+    print(div(0))
+    print(div(1))
+except:
+    print("'Error': Invalid argument.")
+
+div(42)
