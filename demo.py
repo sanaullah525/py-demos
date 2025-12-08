@@ -744,3 +744,17 @@ eggs= 'global'
 ftn()
 """
 
+
+#...Exception handeling.
+
+def div(divideby):
+    try:
+        return 42/divideby
+    except:
+        print("'Error': Invalid argument.")
+
+print(div(2))
+print(div(12))
+print(div(0)) #..Division by zero. (ZeroDivisionError)
+print(div(1))
+
