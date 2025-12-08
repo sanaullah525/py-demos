@@ -733,3 +733,14 @@ bacon()
 print(lc)
 """
 
+#..Line order matters during execution,
+#  but scope is decided before execution.
+"""
+def ftn():
+    print(eggs)
+    eggs= 'local eggs'
+
+eggs= 'global'
+ftn()
+"""
+
